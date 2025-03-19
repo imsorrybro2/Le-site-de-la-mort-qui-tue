@@ -1,1 +1,115 @@
-hello worlds
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,401,900&display=swap" rel="stylesheet">
+    <title>Dev server</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a href="#about" class="header__link">About</a>
+          </li>
+          <li>
+            <a href="#featured" class="header__link">Work</a>
+          </li>
+          <li>
+            <a href="#contact" class="header__link">Contact</a>
+          </li>
+          <li class="header__line"></li>
+          <li>
+            <button class="header__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
+                <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+              </svg>
+              
+            </button>
+          </li>
+          <li>
+            <a href="#" class="header__resume btn">CV</a>
+          </li>
+        </ul>
+        <button class="header__bars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>
+          
+        </button>
+      </nav>
+    </header>
+    <main>
+      
+      <section class="hero container">
+        <img class="hero__img" src="/hero.jpg" alt="Hero Image">
+        <h2 class="hero__subtitle">Hello this is the hello</h2>
+        <h1 class="hero__title">THE WEBSITE <br>OF ALL TIME BRO</h1>
+        <p class="hero__description"><strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</strong>
+          Odio porro laborum eos aut ipsa, saepe culpa tempore iusto,
+          quos ducimus repellat eligendi nihil excepturi repellendus officiis,<strong> veniam eum blanditiis atque!</strong></p>
+        <a class="hero__btn btn" href="#">Email Me</a>
+      </section>
+
+      <section class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__description"><strong>Lorem ipsum dolor sit amet</strong> consectetur, 
+          adipisicing elit. Quis optio earum, tempora, 
+          soluta molestiae fuga minus voluptatum perspiciatis eius beatae quibusdam magni, 
+          vitae sequi assumenda odit quidem delectus eveniet alias.</p>
+          <p class="about__description">Lorem ipsum dolor sit amet consectetur, 
+          adipisicing elit. <strong>Quis optio earum, tempora, 
+          soluta molestiae fuga minus voluptatum perspiciatis eius beatae quibusdam magni, </strong>
+          vitae sequi assumenda odit quidem delectus eveniet alias.</p>
+          <p class="about__description">Lorem ipsum dolor sit amet consectetur, 
+          adipisicing elit. Quis optio earum, tempora, 
+          <strong>soluta molestiae fuga minus voluptatum perspiciatis eius beatae quibusdam magni, 
+          vitae sequi assumenda odit quidem delectus eveniet alias.</strong></p>
+          <hr class="about__hr">
+          <h3 class="about__subtitle">Ummm Yeah Here's A List Of Languages</h3>
+          <div class="about__ul-container">          
+            <ul class="about__ul">
+            <li class="about__list">English</li>
+            <li class="about__list">French</li>
+            <li class="about__list">Italian</li>
+
+          </ul>
+          <ul class="about__ul">
+            <li class="about__list">Portuguese</li>
+            <li class="about__list">Germany</li>
+            <li class="about__list">Polish</li>
+          </ul>
+        </div>
+
+        </div>
+        <div class="about__img-wrapper">
+          <img class="about__img" src="/about.jpg" alt="About Image">
+        </div>
+      </section> 
+      <section class="work container section">
+        <div>
+          <h2 class="work__title">Work</h2>
+          
+          <div class="work__content">
+            <p class="work__description">I haven't really made anything yet, but i'm hoping you'll enjoy the website </p>
+            <div class="work__nothing1 worknothing">This is my first Nothing Work !</div>
+            <div class="work__nothing2 worknothing">This is my second Nothing Work !</div>
+            <div class="work__nothing3 worknothing">This is my third Nothing Work !</div>
+          </div>
+          <!-- <a class="work__btn btn" href="#">GitHub</a> -->
+        </div>
+
+
+
+      </section>
+      <!-- <section></section> -->
+      <!-- <section></section> -->
+      
+    </main>
+    <footer></footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
